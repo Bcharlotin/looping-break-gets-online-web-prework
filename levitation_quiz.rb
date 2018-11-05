@@ -6,9 +6,3 @@ def levitation_quiz
 end
   puts "You passed the quiz!"
 end
-
-def greeting
-    puts "Please type your name:"
-    name = gets.chomp
-    puts "Your name is #{name}!"
-end
