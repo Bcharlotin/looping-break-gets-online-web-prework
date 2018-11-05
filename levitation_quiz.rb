@@ -1,9 +1,8 @@
 
 def levitation_quiz
-puts "What is the spell that enacts levitation?"
-  
+  puts "What is the spell that enacts levitation?"
   answer= get.chomp
-break if answer== ""
+  break if answer== "Wingardium Leviosa"
 end
 
 
