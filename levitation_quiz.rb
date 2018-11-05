@@ -4,10 +4,9 @@ def levitation_quiz
     answer= get.chomp
      break if answer== "Wingardium Leviosa"
 end
-end
-end
   puts You passed the quiz!
 end
+
 def greeting
     puts "Please type your name:"
     name = gets.chomp
